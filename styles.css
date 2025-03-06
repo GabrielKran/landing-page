@@ -3,14 +3,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* inciando main */
+
 .main {
-    /* background-color: rgb(55, 55, 55); */
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /* background-image: linear-gradient(to left, rgb(62, 61, 61), rgb(35, 35, 35)); */
-
-    /* box-shadow: 0px 5px 10px 1px rgb(36, 35, 35); */
 }
 
 body {
@@ -20,22 +18,15 @@ body {
 .header {
     position: sticky;
     top: 0;
-    /* background-image: linear-gradient(to left, rgb(62, 61, 61), rgb(35, 35, 35)); */
     padding: 0;
     margin: 0;
-
     background-color: #1B263B;
-
-    /* border-bottom: 2px solid white; */
     height: 60px;
-
-    /* box-shadow: 0px 5px 10px 1px rgb(36, 35, 35); */
     z-index: 1;
 }
 
 .logo {
     margin: 9px 150px 0 150px;
-    /* background-color: aqua; */
     transition: ease-in-out 0.2s;
 }
 
@@ -47,12 +38,6 @@ body {
     bottom: 33px;
     gap: 120px;
     margin: 0px 150px;
-    
-    
-    /* background-color: aqua; */
-
-    /* background-color: aqua;
-    opacity: 0.5; */
 }
 
 .nav a {
@@ -77,7 +62,6 @@ body {
 .text-main {
     margin-left: 100px;
     color: white;
-    /* background-color: aqua; */
     margin-top: 11%;
     border: 1px solid transparent;
     border-radius: 12px;
@@ -99,7 +83,6 @@ body {
 .text-main p {
     margin-bottom: 40px;
     font-size: 18px;
-    /* background-color: aqua; */
     width: 650px;
 }
 
@@ -144,7 +127,7 @@ body {
   
   ::-webkit-scrollbar-thumb {
     background-color: rgb(79, 79, 79); /* Cor do "botão" da rolagem */  
-    border: none; /* Borda para dar efeito separado */
+    border: none;
   }
   
 /* inciando cards */
@@ -154,7 +137,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .info-main h2 {
@@ -213,11 +195,9 @@ body {
     animation: gradiente-movendo 4s linear infinite;
 }
 
-
-/* Brilho e efeito quando o mouse passa por cima */
 .card1:hover {
-    transform: scale(1.1); /* Card cresce ao passar o mouse */
-    box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.8); /* Brilho ao redor do card */
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.8); 
 }
 
 .card2 {
@@ -227,10 +207,10 @@ body {
     animation: gradiente-movendo 4s linear infinite;
 }
 
-/* Brilho e efeito quando o mouse passa por cima */
+
 .card2:hover {
-    transform: scale(1.1); /* Card cresce ao passar o mouse */
-    box-shadow: 0px 0px 30px rgba(30, 255, 0, 0.8); /* Brilho ao redor do card */
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px rgba(30, 255, 0, 0.8);
 }
 
 .card3 {
@@ -240,10 +220,9 @@ body {
     animation: gradiente-movendo 4s linear infinite;
 }
 
-/* Brilho e efeito quando o mouse passa por cima */
 .card3:hover {
-    transform: scale(1.1); /* Card cresce ao passar o mouse */
-    box-shadow: 0px 0px 30px rgba(255, 255, 0, 0.8); /* Brilho ao redor do card */
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px rgba(255, 255, 0, 0.8); 
 }
 
 .card4 {
@@ -253,10 +232,9 @@ body {
     animation: gradiente-movendo 4s linear infinite;
 }
 
-/* Brilho e efeito quando o mouse passa por cima */
 .card4:hover {
-    transform: scale(1.1); /* Card cresce ao passar o mouse */
-    box-shadow: 0px 0px 30px rgba(0, 145, 255, 0.8); /* Brilho ao redor do card */
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 30px rgba(0, 145, 255, 0.8); 
 }
 
 /* Animação que move o gradiente */
@@ -271,6 +249,8 @@ body {
         background-position: 0% 50%; /* Volta para o início */
     }
 }
+
+/*inciando footer*/
 
 footer {
     background-color: #0f2135;
