@@ -271,3 +271,13 @@ body {
         background-position: 0% 50%; /* Volta para o início */
     }
 }
+
+footer {
+    background-color: #0f2135;
+    height: 50px;
+    margin-top: 20px;
+    color: rgb(199, 199, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
